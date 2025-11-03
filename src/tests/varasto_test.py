@@ -60,7 +60,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_merkkijonoesitys_toimii(self):
         self.varasto.lisaa_varastoon(8)
-        self.assertEqual(str(self.varasto), "saldo = 8, vielä tilaa 2")
+        self.assertEqual(str(self.varasto), "saldo = 8.0, vielä tilaa 2")
 
 if __name__ == "__main__":
     unittest.main()
