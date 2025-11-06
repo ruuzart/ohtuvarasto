@@ -1,5 +1,5 @@
 from varasto import Varasto
-
+#muutos
 def tulosta_alkutilanne(mehu_varasto, olut_varasto):
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehu_varasto}")
